@@ -38,5 +38,3 @@ app.get('/api/v1/roommates/:id', async (request, response) => {
 app.listen(app.get('port'), () => {
     console.log(`App is running on http://localhost:${app.get('port')}.`);
   });
-
-  module.exports = app;
