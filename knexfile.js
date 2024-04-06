@@ -14,6 +14,10 @@ module.exports = {
     seeds: {
       directory: './seeds'
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+    production: {
+      client: 'postgresql',
+      connection: process.env.DATABASE_URL
+    }
   }
 };
