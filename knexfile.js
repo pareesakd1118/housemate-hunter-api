@@ -1,10 +1,10 @@
+
 // Update with your config settings.
 
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
-
   development: {
     client: 'pg',
     connection: 'postgres://localhost/roommates',
@@ -14,10 +14,17 @@ module.exports = {
     seeds: {
       directory: './seeds'
     },
-    useNullAsDefault: true,
-    production: {
-      client: 'postgresql',
-      connection: process.env.DATABASE_URL
-    }
+    useNullAsDefault: true
+  },
+  production: {
+    client: 'postgresql',
+    connection: process.env.DATABASE_URL,
+    migrations: {
+      directory: './db/migrations'
+    },
+    seeds: {
+      directory: './seeds'
+    },
+    useNullAsDefault: true
   }
 };
