@@ -7,7 +7,7 @@ const cors = require('cors');
 
 app.set('port', process.env.PORT || 3001)
 
-app.use(cors({origin: 'http://localhost:3002'}));
+app.use(cors({origin: 'http://localhost:3000'}));
 
 app.get('/api/v1/roommates', async (request, response) => {
     try {
