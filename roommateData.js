@@ -643,7 +643,7 @@ let roommateData = [
       hasPets: true,
       maxBudget: 3493,
       gender: 'male',
-      image: 'https://images.unsplash.com/photo-1622031093531-f4e641788763?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: 'https://images.pexels.com/photos/7289305/pexels-photo-7289305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       city: 'San Francisco',
       id: 50,
       bio: "Greetings, I'm Ethan, a legal eagle advocating for justice in the vibrant streets of San Francisco. When I'm not poring over case files, I'm exploring the city's historic landmarks or unwinding with a game of chess in the park. My office is a bastion of order amidst the urban chaos, where every brief is meticulously crafted to defend the rights of the vulnerable.",
